@@ -12,7 +12,7 @@
 
 ## Screenshots
 
-* [Đăng nhập](images/SignIn.jpg)
+* [Đăng nhập](images/SignIn.jpg,images/SigninEmail1 (1).jpg)
 * [Màn hình chính](pics/Manhinhchinh.png)
 * [Màn hình sản phẩm](pics/Sanpham.png)
 * [Quy trình mua hàng](pics/Muahang.png)
@@ -67,7 +67,7 @@ $ git clone --recursive https://github.com/nnnghia98/DoAnJavaSE330.J21
 ### Phân chia công việc
 | Màn hình                                           | Thời gian (ngày) | Thực hiện         |
 |----------------------------------------------------|------------------|-------------------|
-| Màn hình “Trang chủ”                               | 5                | Tùng,  
+| Màn hình “Trang chủ”                               | 5                | Tùng,
 | Màn hình “Danh mục”                                | 5                | Tùng, Hoàng
 | Màn hình “Giỏ hàng”                                | 5                | Hoàng, Luân
 | Màn hình “Thêm”                                    | 5                | Tùng, Hoàng
