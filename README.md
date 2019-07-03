@@ -12,7 +12,7 @@
 
 ## Screenshots
 
-* [Đăng nhập](images/SignIn.jpg,images/SigninEmail1 (1).jpg)
+* [Đăng nhập](images/SignIn.jpg;images/SigninEmail1 (1).jpg)
 * [Màn hình chính](pics/Manhinhchinh.png)
 * [Màn hình sản phẩm](pics/Sanpham.png)
 * [Quy trình mua hàng](pics/Muahang.png)
