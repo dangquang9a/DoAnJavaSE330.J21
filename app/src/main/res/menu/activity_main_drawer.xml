@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/lessons">
+        <menu>
+            <item
+                android:id="@+id/nav_Basic"
+                android:icon="@drawable/ic_basic"
+                android:title="@string/basic" />
+            <item
+                android:id="@+id/nav_Sensors"
+                android:icon="@drawable/ic_bio_sensor"
+                android:title="@string/sensors" />
+            <item
+                android:id="@+id/nav_LED"
+                android:icon="@drawable/ic_led"
+                android:title="@string/led" />
+            <item
+                android:id="@+id/nav_Movement"
+                android:icon="@drawable/ic_movement"
+                android:title="@string/movement" />
+        </menu>
+    </item>
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_achievements"
+                android:icon="@drawable/ic_checked"
+                android:title="@string/achievements" />
+            <!--<item-->
+                <!--android:id="@+id/nav_remove_ads"-->
+                <!--android:icon="@drawable/invite_friend"-->
+                <!--android:title="Remove Ads" />-->
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/feedback" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/about_us" />
+            <!--<item-->
+                <!--android:id="@+id/nav_moreapps"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="@string/more_apps" />-->
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/sign_out" />
+</menu>

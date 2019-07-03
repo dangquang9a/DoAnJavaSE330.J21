@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.uit.learnarduino">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Learn Arduino"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.uit.learnarduino.Tol4.Tol4_ContentButton2"></activity>
+        <activity android:name="com.uit.learnarduino.Tol4.Tol4_ContentButton3" />
+        <activity android:name="com.uit.learnarduino.Tol4.Tol4_ContentButton4" />
+        <activity android:name="com.uit.learnarduino.Tol4.Tol4_ContentButton5" />
+        <activity android:name="com.uit.learnarduino.Tol4.Tol4_MainContent" />
+        <activity
+            android:name="com.uit.learnarduino.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.uit.learnarduino.Gettoken"
+            android:label="Get Token" />
+        <activity
+            android:name="com.uit.learnarduino.Feedback"
+            android:label="Feedback"
+            android:theme="@style/AppTheme.Material" />
+        <activity
+            android:name="com.uit.learnarduino.Achievements"
+            android:label="Achievements" />
+        <activity
+            android:name="com.uit.learnarduino.Welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.uit.learnarduino.Tol4.Tol4_Lesson_Quiz"
+            android:label="Waiter Robot Control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.uit.learnarduino.Tol4.Tol4_Lesson_Content"
+            android:label="Waiter Robot Control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.uit.learnarduino.Tol1.Tol1_Lesson_Quiz"
+            android:label="Basic"
+            android:parentActivityName="com.uit.learnarduino.Basic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.uit.learnarduino.Tol1.Tol1_Lesson_Content"
+            android:label="@string/title_activity_to1__lesson__content"
+            android:parentActivityName="com.uit.learnarduino.Basic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.uit.learnarduino.Tol6" />
+        <activity android:name="com.uit.learnarduino.Tol5" />
+        <activity
+            android:name="com.uit.learnarduino.SplashActivity"
+            android:theme="@style/styleLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.uit.learnarduino.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1398912587505329~4968336940" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/facebook_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.uit.learnarduino.Basic"
+            android:label="Basic" />
+        <activity
+            android:name="com.uit.learnarduino.Sensors"
+            android:label="Sensors" />
+        <activity
+            android:name="com.uit.learnarduino.LED"
+            android:label="LED Projects" />
+        <activity
+            android:name="com.uit.learnarduino.Movement"
+            android:label="Waiter Robot Control" />
+        <activity
+            android:name="com.uit.learnarduino.Aboutus"
+            android:label="About Us" />
+        <activity
+            android:name="com.uit.learnarduino.Tol2.Tol2_Lesson_Content"
+            android:label="Sensors"
+            android:parentActivityName="com.uit.learnarduino.Sensors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.uit.learnarduino.Tol2.Tol2_Lesson_Quiz"
+            android:label="Quiz"
+            android:parentActivityName="com.uit.learnarduino.Sensors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.uit.learnarduino.Tol3.Tol3_Lesson_Content"
+            android:label="LED"
+            android:parentActivityName="com.uit.learnarduino.LED"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.uit.learnarduino.Tol3.Tol3_Lesson_Quiz"
+            android:label="Quiz"
+            android:parentActivityName="com.uit.learnarduino.LED"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
